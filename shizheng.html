@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link href="css/all.css" rel="stylesheet"  media="all" type="text/css" />
+<title>四川</title>
+</head>
+<body>
+<!-- 头部 -->
+<header class="mid">
+  <div class="logo"> <img style="width: 80px; height: 80px;" src="imgs/logo.jpg"/>
+    <p style="float: right; font-size: 30px; font-weight: bold; color: red; margin: 30px 50px;">四川欢迎您</p>
+  </div>
+</header>
+<!-- 导航 -->
+<nav class="menu">
+  <ul class="center mid">
+    <li><a href="index.html">首页</a></li>
+    <li><a href="shizheng.html">时政要闻</a></li>
+    <li><a href="jingji.html">经济民生</a></li>
+    <li><a href="wenlv.html">文旅天府</a></li>
+    <li><a href="meishi.html">美食川味</a></li>
+    <li><a href="msg.html">在线留言</a></li>
+  </ul>
+</nav>
+<!-- 主体（warp） -->
+<div class="content">
+  <div class="banner ">
+    <div class="top_img"><img src="imgs/ban.jpg" width="1000"/></div>
+  </div>
+  <div class="bar"><strong class=" ">四川·时政要闻</strong></div>
+  
+  <!-- 新闻栏目主体部分 -->
+  <div class="news-container">
+    <div class="news-image">
+      <img src="imgs/img2.jpg" alt="四川时政要闻专题图片" width="260" height="400"/>
+    </div>
+    <div class="news-links">
+      <ul>
+        <li><a href="https://www.sc.chinanews.com.cn/szbd/2025-12-26/239031.html" target="_blank">·广元力争到"十五五"末经济总量迈上两千亿元台阶</a></li>
+        <li><a href="https://www.sc.chinanews.com.cn/szbd/2025-12-24/238926.html" target="_blank">·安岳县举行新闻发布会 解读县委十四届十一次全会精神</a></li>
+        <li><a href="https://www.chinanews.com.cn/gn/2025/12-20/10537230.shtml" target="_blank">·人大代表深入四川宜宾、泸州集中视察 为高质量发展建言献策</a></li>
+        <li><a href="http://sc.people.com.cn/n2/2025/1222/c345167-41450516.html" target="_blank">·央媒看四川丨四川多措并举扎实推进城市更新行动</a></li>
+        <li><a href="https://m.thepaper.cn/newsDetail_forward_32253900" target="_blank">·联动调整：四川省交通运输厅厅长卢军出任乐山市委书记</a></li>
+        <li><a href="https://m.toutiao.com/is/tr_c2lb1oYM/ " target="_blank">·从产业脉动到民生温度 人大代表集中视察：看见四川的现在与未来 </a></li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+<div class="end">
+  <p>四川</p>
+</div>
+
+<style>
+/* 新闻栏目容器样式 */
+.news-container {
+  width: 1000px;
+  margin: 20px auto;
+  overflow: hidden;
+  display: flex;
+}
+
+/* 左侧图片样式 */
+.news-image {
+  flex: 0 0 280px;
+  padding-right: 20px; 
+  padding-left: 20px;
+}
+
+.news-image img {
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* 右侧新闻链接样式 */
+.news-links {
+  flex: 1;
+  padding: 10px;
+}
+
+.news-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.news-links li {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px dashed #e0e0e0;
+}
+
+.news-links li:last-child {
+  border-bottom: none;
+}
+
+.news-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+  transition: color 0.3s ease;
+  display: block;
+  padding: 5px 0;
+}
+
+.news-links a:hover {
+  color: #e60000;
+  text-decoration: underline;
+}
+
+/* 响应式设计 */
+@media (max-width: 1024px) {
+  .news-container {
+    width: 95%;
+    flex-direction: column;
+  }
+  
+  .news-image {
+    float: none;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .news-image img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+</style>
+</body>
+</html>
